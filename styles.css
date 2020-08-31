@@ -1,0 +1,80 @@
+body{
+  background-color:rgb(201, 240, 246); 
+  }
+
+hr {
+  border-style: none ;
+  border-top-style: dotted;
+  border-color:rgb(148, 164, 233) ;
+  border-width: 10px;
+  height: 0.5px;
+  width: 10%;
+}
+h1{
+    color: rgb(82, 4, 4);
+}
+h3{
+    color: #800040;
+}
+
+
+
+
+/********************************************* class selector ****************************************************/
+.bacon{
+  background-color: rgb(251, 97, 97);
+}
+.monkey{
+  background-color: brown;
+  height: 160px;
+  width: 160px;
+}
+
+.image:hover{
+  background-color: rgb(217, 255, 0);
+}
+
+.headin{
+  font-size:50px;
+  font-family: cursive;
+}
+
+/********************************************** id selector *********************************************************/
+#heading:hover{
+  font-size:100px;
+  color: rgb(121, 0, 0);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#table{
+  border-spacing: 80px;
+}
+
+#grapes:hover{
+  background-color: rgb(255, 0, 234);
+  height:300px;
+}
+
+#building:hover{
+  background-color: rgb(147, 119, 167);
+  height:300px;
+}
+
+#bomb:hover{
+  background-color: rgb(255, 0, 0);
+  height:300px;
+}
+
+#arrow:hover{
+  background-color: rgb(0, 255, 13);
+  height:300px;
+}
+
+#flag:hover{
+  background-color: rgb(255, 72, 72);
+  height:300px;
+}
+
+#broccoli:hover{
+  background-color: rgb(9, 165, 17);
+  height:300px;
+}
